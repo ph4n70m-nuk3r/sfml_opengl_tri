@@ -21,3 +21,6 @@ Simple project using SFML for window + event management and OpenGL to render and
 
 ## SFML  
 - https://www.sfml-dev.org/  
+
+## CMake  
+- https://cmake.org/cmake/help/latest  
