@@ -4,7 +4,7 @@ Simple project using SFML for window + event management and OpenGL to render and
 # Screenshot of Final Application  
 ![screenshot](app_screenshot.png)  
 
-# Shared Libraries:  
+# Required Shared Libraries:  
 `OpenGL` (libgl1-mesa-dev ...) `GLEW` (libglew-dev) `SFML` (libsfml-dev)  
 
 # Toolchain  
