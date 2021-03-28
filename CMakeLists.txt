@@ -7,6 +7,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 #set(CMAKE_CXX_FLAGS "-Wall -Wextra -Wpedantic -O3")
 # set(SFML_STATIC_LIBRARIES TRUE)
 
+set(OpenGL_GL_PREFERENCE "GLVND")
+
 add_library(GS STATIC src/graphics_settings.cpp)
 add_library(GA STATIC src/game_app.cpp)
 add_executable(GameDev2 src/main.cpp)
