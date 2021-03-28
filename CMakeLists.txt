@@ -15,7 +15,6 @@ target_include_directories(GameDev2 PUBLIC include)
 find_package(SFML 2.5 COMPONENTS graphics window system REQUIRED)
 find_package(GLEW 2.1 REQUIRED)
 find_package(OpenGL 1 REQUIRED)
-#find_package(OpenGL::GL REQUIRED)   ## https://www.startpage.com/do/dsearch?query=libGL+cmake+find_package
 
 target_link_libraries(GameDev2 GS GA GL GLEW sfml-graphics sfml-window sfml-system)
 
